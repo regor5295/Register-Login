@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div ng-app="MyApp" ng-controller="MyController">
+	<header><b>REGISTER</b></header><hr>
+	<section>
+		<form name="Register">
+Create Username: <input type="text" name="username" ng-model="username" required><br><br>
+Create Password: <input type="password" name="password" ng-model="password" required><br><br>
+First Name: <input type="text" name="fname" ng-model="fname" required><br><br>
+Middle Name: <input type="text" name="mname" ng-model="mname" required><br><br>
+Last Name: <input type="text" name="lname" ng-model="lname" required><br><br>
+Gender: <input type="text" name="gender" ng-model="gender" required><br><br>
+Birthday: <input type="text" name="bday" ng-model="birthday" required><br><br>
+<button ng-click="connect()">Done</button>
+</form>
+	</section>
+	</div>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</body>
+</html>
